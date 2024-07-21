@@ -8,4 +8,5 @@ import service_booking.main.entities.UserEntity;
 @Repository
 public interface UserRepository extends JpaRepository<UserEntity, Long> {
 
+    Object findFirstByEmail(String email);
 }
