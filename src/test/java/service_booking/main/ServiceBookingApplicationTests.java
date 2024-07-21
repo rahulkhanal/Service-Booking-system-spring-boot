@@ -1,10 +1,10 @@
-package com.example.demo;
+package service_booking.main;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class ServiceBookingApplicationTests {
 
 	@Test
 	void contextLoads() {
